@@ -16,7 +16,7 @@ export default function AboutPage() {
   )
 }
 
-AboutPage.getLayout = (page) => (
+AboutPage.getLayout = (page: JSX.Element ) => (
   <MainLayout>
     <DarkLayout>{page}</DarkLayout>
   </MainLayout>

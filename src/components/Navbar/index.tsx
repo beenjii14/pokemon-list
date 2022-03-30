@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import styles from 'styles/components/navbar/navbar.module.scss'
 import { ActiveLink } from './ActiveLink'
 
